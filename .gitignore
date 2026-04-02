@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+ecosort_env/
+
+# Data directories (local only)
+dataset/
+prepared_dataset/
+
+# Training artifacts (local only)
+*.keras
+*.h5
+checkpoints/
+logs/
+
+# Local debug/test files
+debug.txt
+*.log
+image*.jpg
+image*.jpeg
+image*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
