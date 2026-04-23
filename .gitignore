@@ -33,3 +33,5 @@ image*.png
 Thumbs.db
 .idea/
 .vscode/
+
+prepared_dataset_v2/
